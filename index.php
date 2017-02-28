@@ -6,7 +6,7 @@
 <body>
 
 <?php
-echo "Ahoj from the server: ";
+echo "Hello from the server: ";
 echo gethostname() . "<br>";
 echo "Today is " . date("Y.m.d") . "<br>";
 ?>
