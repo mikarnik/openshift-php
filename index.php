@@ -1,4 +1,15 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>OpenShift Test</title>
+ </head>
+<body>
+
 <?php
-echo "Ahoj from ";
-echo gethostname(); // may output e.g,: sandie
+echo "Ahoj from the server: ";
+echo gethostname() . "<br>";
+echo "Today is " . date("Y.m.d") . "<br>";
 ?>
+
+</body>
+</html>
