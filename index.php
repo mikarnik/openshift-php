@@ -8,7 +8,7 @@
 <?php
 echo "Hello from the server: ";
 echo gethostname() . "<br>";
-echo "----2-<br>";
+echo "------<br>";
 echo "Today is " . date("Y.m.d") . "<br>";
 ?>
 </h1>
